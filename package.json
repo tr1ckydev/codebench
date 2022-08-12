@@ -1,0 +1,31 @@
+{
+  "name": "codebench",
+  "version": "1.0.0",
+  "description": "The ultimate tool to benchmark your Javascript/Typescript code.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "node-js": "tsc && node .",
+    "bun": "bun run index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr1ckydev/codebench.git"
+  },
+  "keywords": [
+    "measure",
+    "speed"
+  ],
+  "author": "tr1ckydev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tr1ckydev/codebench/issues"
+  },
+  "homepage": "https://github.com/tr1ckydev/codebench#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.6"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
